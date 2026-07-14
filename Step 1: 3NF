@@ -1,3 +1,11 @@
-# 1NF:
+1NF:
 - The extracted data set already has single values in every cell;
 - Primary key identification: (InVoiceNo, StockCode)
+
+2NF:
+- The extracted data set has some partial dependencies:
+1) InVoiceData depends on InVoiceNo, but not on StockCode;
+2) Description depends on StockCode, but not on InVoiceNo.
+
+3NF:
+- Removing transitive dependencies: Country depends on the non-key CustomerID.
