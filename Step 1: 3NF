@@ -1,0 +1,3 @@
+# 1NF:
+- The extracted data set already has single values in every cell;
+- Primary key identification: (InVoiceNo, StockCode)
